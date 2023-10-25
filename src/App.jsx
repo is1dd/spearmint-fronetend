@@ -29,11 +29,21 @@ const App = () => {
     return () => clearInterval(interval);
   }, [selectedStock]);
 
+  // const appStyles = {
+  //   fontFamily: "Arial, sans-serif",
+  //   textAlign: "center",
+  //   marginTop: "30px",
+  // };
   const appStyles = {
-    fontFamily: "Arial, sans-serif",
-    textAlign: "center",
-    marginTop: "30px",
-  };
+    fontFamily: 'Arial, sans-serif',
+    textAlign: 'center',
+    maxWidth: '600px',
+    margin: 'auto',
+    padding: '20px',
+    border: '1px solid #ddd',
+    borderRadius: '8px',
+    boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+  }
 
   const headingStyles = {
     fontSize: "24px",

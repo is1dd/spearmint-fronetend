@@ -46,7 +46,7 @@ const App = () => {
       <h1 style={headingStyles}>Mini Stock Price Tracker</h1>
       <StockSelector onSelect={(stock) => setSelectedStock(stock)} />
       <PriceDisplay stock={selectedStock} price={stockPrice} />
-      <p>Note: Refetching the price of every stock in 11 seconds instead of 1 minute for your convenience to see result faster</p>
+      <p>Note: Refetching the price of every stock in 11 seconds instead of 1 minute for your convenience to see given task is implemented faster.</p>
     </div>
   );
 };

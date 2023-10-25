@@ -36,7 +36,7 @@ const App = () => {
   // };
   const appStyles = {
     fontFamily: 'Arial, sans-serif',
-    textAlign: 'center',
+    textAlign: 'start',
     maxWidth: '600px',
     margin: 'auto',
     padding: '20px',
